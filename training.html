@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MKSCorp HR Portal – Training & Development</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">MKS<span>Corp</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="culture.html">Company Culture</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="benefits.html">Benefits</a></li>
+        <li><a href="training.html" class="active">Training</a></li>
+      </ul>
+      <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <h1>Training & Development</h1>
+      <p>Invest in yourself. We provide world-class learning resources to help you grow at every stage of your career.</p>
+    </section>
+
+    <section class="content-section">
+      <h2 class="section-title">Featured HR Training Video</h2>
+      <div class="video-wrap" style="max-width: 720px; margin: 0 auto 2.5rem;">
+  <video controls style="width: 100%; height: auto; border-radius: 12px; display: block;">
+    <source src="Videos/videoplayback.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+      <p style="text-align:center; color: var(--text-muted); margin-top: 1rem; font-size: 0.9rem;">HR Basics: Introduction to Human Resource Management</p>
+    </section>
+
+    <section style="background: var(--surface); border-top: 1px solid var(--border); padding: 4rem 2rem;">
+      <div style="max-width: 1200px; margin: 0 auto;">
+        <h2 class="section-title">Available Courses</h2>
+        <div class="course-list">
+          <div class="course-item">
+            <div>
+              <strong>HR Fundamentals for Managers</strong>
+              <p style="color: var(--text-muted); font-size: 0.85rem;">Understand employment law, performance management, and compliance basics.</p>
+            </div>
+            <span>🕐 6 hours</span>
+          </div>
+          <div class="course-item">
+            <div>
+              <strong>Effective Communication in the Workplace</strong>
+              <p style="color: var(--text-muted); font-size: 0.85rem;">Improve interpersonal skills, conflict resolution, and professional writing.</p>
+            </div>
+            <span>🕐 4 hours</span>
+          </div>
+          <div class="course-item">
+            <div>
+              <strong>Diversity, Equity & Inclusion (DEI) Training</strong>
+              <p style="color: var(--text-muted); font-size: 0.85rem;">Build awareness of unconscious bias and inclusive workplace practices.</p>
+            </div>
+            <span>🕐 3 hours</span>
+          </div>
+          <div class="course-item">
+            <div>
+              <strong>Data-Driven HR Analytics</strong>
+              <p style="color: var(--text-muted); font-size: 0.85rem;">Use HR data and dashboards to make better workforce decisions.</p>
+            </div>
+            <span>🕐 8 hours</span>
+          </div>
+          <div class="course-item">
+            <div>
+              <strong>Leadership Development Programme</strong>
+              <p style="color: var(--text-muted); font-size: 0.85rem;">Coaching, strategic thinking, and team leadership for aspiring managers.</p>
+            </div>
+            <span>🕐 12 hours</span>
+          </div>
+          <div class="course-item">
+            <div>
+              <strong>Health & Safety in the Workplace</strong>
+              <p style="color: var(--text-muted); font-size: 0.85rem;">Compliance training and risk assessment for all employees.</p>
+            </div>
+            <span>🕐 2 hours</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <h2 class="section-title">Mentorship Programme</h2>
+      <div class="two-col">
+        <div>
+          <p>Our structured mentorship programme pairs junior employees with experienced leaders for a 6-month guided career development journey.</p>
+          <ul style="margin-top: 1.5rem; color: var(--text-muted); line-height: 2.5; padding-left: 1.2rem;">
+            <li>✅ Monthly 1-on-1 sessions with your mentor</li>
+            <li>✅ Goal-setting and progress reviews</li>
+            <li>✅ Access to our internal knowledge library</li>
+            <li>✅ Networking events and senior leadership talks</li>
+            <li>✅ Certificate upon programme completion</li>
+          </ul>
+          <a href="mailto:learning@mkscorp.com" class="btn-primary">Apply for Mentorship</a>
+        </div>
+        <img src="https://images.unsplash.com/photo-1603575448878-868a20723f5d?w=600&q=80" alt="Mentorship session"/>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MKSCorp Human Resources Portal. All rights reserved.</p>
+  </footer>
+  <script>function toggleMenu() { document.querySelector('.nav-links').classList.toggle('open'); }</script>
+</body>
+</html>

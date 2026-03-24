@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MKSCorp HR Portal – Employee Benefits</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">MKS<span>Corp</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="culture.html">Company Culture</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="benefits.html" class="active">Benefits</a></li>
+        <li><a href="training.html">Training</a></li>
+      </ul>
+      <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <h1>Employee Benefits</h1>
+      <p>We take care of our people with a comprehensive package designed to support your health, wealth, and happiness.</p>
+    </section>
+
+    <section class="content-section">
+      <h2 class="section-title">What We Offer</h2>
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="icon">🏥</div>
+          <h4>Medical Aid</h4>
+          <p>Full medical cover for you and your dependents including dental and optical.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="icon">💰</div>
+          <h4>Pension Fund</h4>
+          <p>Company-matched retirement contributions of up to 10% of your salary.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="icon">🏖️</div>
+          <h4>Annual Leave</h4>
+          <p>21 days paid leave per year, with additional family responsibility and sick leave.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="icon">🏠</div>
+          <h4>Remote Work</h4>
+          <p>Flexible hybrid work arrangements and a home-office equipment allowance.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="icon">🎓</div>
+          <h4>Study Assistance</h4>
+          <p>Up to M8,000 per year for approved courses and professional certifications.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="icon">🍽️</div>
+          <h4>Meal Allowance</h4>
+          <p>Daily meal vouchers and subsidised canteen access at our main offices.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="icon">🧘</div>
+          <h4>Wellness Programme</h4>
+          <p>Free access to EAP counselling, gym memberships, and mindfulness apps.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="icon">👶</div>
+          <h4>Parental Leave</h4>
+          <p>4 months fully paid maternity leave and 4 weeks paternity leave.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="icon">🚗</div>
+          <h4>Travel Allowance</h4>
+          <p>Monthly transport subsidy and company car for senior roles.</p>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: var(--surface); border-top: 1px solid var(--border); padding: 4rem 2rem;">
+      <div style="max-width: 1200px; margin: 0 auto;">
+        <h2 class="section-title">Benefits Policy Documents</h2>
+        <ul class="policy-list">
+          <li><a href="#medical">📄 Medical Aid Scheme Policy</a></li>
+          <li><a href="#pension">📄 Pension & Provident Fund Rules</a></li>
+          <li><a href="#leave">📄 Leave Policy — Full Document</a></li>
+          <li><a href="#wellness">📄 Employee Wellness Programme Guide</a></li>
+          <li><a href="#study">📄 Study Assistance Application Form</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MKSCorp Human Resources Portal. All rights reserved.</p>
+  </footer>
+  <script>function toggleMenu() { document.querySelector('.nav-links').classList.toggle('open'); }</script>
+</body>
+</html>

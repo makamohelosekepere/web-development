@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MKSCorp HR Portal – Careers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">MKS<span>Corp</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="culture.html">Company Culture</a></li>
+        <li><a href="careers.html" class="active">Careers</a></li>
+        <li><a href="benefits.html">Benefits</a></li>
+        <li><a href="training.html">Training</a></li>
+      </ul>
+      <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <h1>Careers & Recruitment</h1>
+      <p>Find your next opportunity at MKSCorp. We're always looking for talented people to join our growing team.</p>
+    </section>
+
+    <section class="content-section">
+      <h2 class="section-title">Current Job Vacancies</h2>
+      <div class="job-list">
+        <div class="job-item">
+          <div class="job-info">
+            <h4>Senior HR Business Partner</h4>
+            <p>📍 Maseru, Lesotho &nbsp;|&nbsp; 🕐 Full-Time &nbsp;|&nbsp; 💰 Competitive</p>
+          </div>
+          <span class="job-tag">HR</span>
+        </div>
+        <div class="job-item">
+          <div class="job-info">
+            <h4>Talent Acquisition Specialist</h4>
+            <p>📍 Remote &nbsp;|&nbsp; 🕐 Full-Time &nbsp;|&nbsp; 💰 M18,000–M24,000</p>
+          </div>
+          <span class="job-tag">Recruitment</span>
+        </div>
+        <div class="job-item">
+          <div class="job-info">
+            <h4>Learning & Development Coordinator</h4>
+            <p>📍 Johannesburg, SA &nbsp;|&nbsp; 🕐 Contract &nbsp;|&nbsp; 💰 M15,000/month</p>
+          </div>
+          <span class="job-tag">L&D</span>
+        </div>
+        <div class="job-item">
+          <div class="job-info">
+            <h4>Payroll & Benefits Administrator</h4>
+            <p>📍 Maseru, Lesotho &nbsp;|&nbsp; 🕐 Full-Time &nbsp;|&nbsp; 💰 M12,000–M16,000</p>
+          </div>
+          <span class="job-tag">Finance</span>
+        </div>
+        <div class="job-item">
+          <div class="job-info">
+            <h4>Organisational Development Manager</h4>
+            <p>📍 Hybrid &nbsp;|&nbsp; 🕐 Full-Time &nbsp;|&nbsp; 💰 M30,000+</p>
+          </div>
+          <span class="job-tag">Management</span>
+        </div>
+        <div class="job-item">
+          <div class="job-info">
+            <h4>HR Data Analyst</h4>
+            <p>📍 Remote &nbsp;|&nbsp; 🕐 Part-Time &nbsp;|&nbsp; 💰 M10,000/month</p>
+          </div>
+          <span class="job-tag">Analytics</span>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: var(--surface); border-top: 1px solid var(--border); padding: 4rem 2rem;">
+      <div style="max-width: 1200px; margin: 0 auto;">
+        <div class="two-col">
+          <div>
+            <h2 class="section-title">How to Apply</h2>
+            <p>Our application process is straightforward and candidate-friendly. Here's what to expect:</p>
+            <ol style="margin-top: 1.5rem; padding-left: 1.5rem; color: var(--text-muted); line-height: 2.2;">
+              <li>Submit your CV and cover letter via email</li>
+              <li>Initial screening call with our Talent Acquisition team</li>
+              <li>Technical or competency-based interview</li>
+              <li>Final interview with the hiring manager</li>
+              <li>Reference checks and offer</li>
+            </ol>
+            <a href="mailto:careers@mkscorp.com" class="btn-primary" style="margin-top: 2rem;">Send Your Application</a>
+          </div>
+          <img src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=600&q=80" alt="Interview room" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MKSCorp Human Resources Portal. All rights reserved.</p>
+  </footer>
+  <script>function toggleMenu() { document.querySelector('.nav-links').classList.toggle('open'); }</script>
+</body>
+</html>

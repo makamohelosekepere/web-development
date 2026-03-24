@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MKSCorp HR Portal – Company Culture</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">MKS<span>Corp</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="culture.html" class="active">Company Culture</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="benefits.html">Benefits</a></li>
+        <li><a href="training.html">Training</a></li>
+      </ul>
+      <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <h1>Our Company Culture</h1>
+      <p>We believe great work begins with great people — supported by a culture of trust, inclusion, and purpose.</p>
+    </section>
+
+    <section class="content-section">
+      <div class="two-col">
+        <div>
+          <p class="eyebrow">Who We Are</p>
+          <h2 class="section-title">Built on Shared Values</h2>
+          <p>At MKSCorp, culture isn't a poster on the wall — it's lived every day through how we collaborate, celebrate wins, and support each other through challenges. Our diverse team spans 12 countries, bringing together unique perspectives to solve complex problems.</p>
+        </div>
+        <img src="https://www.vevox.com/getmedia/20250d32-f4b0-4c6e-b378-a6687b5dfd16/company-culture-benefits-msp.jpg" alt="Team meeting" />
+      </div>
+    </section>
+
+    <section style="background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 4rem 2rem;">
+      <div class="content-section" style="padding: 0; max-width: 1200px; margin: 0 auto;">
+        <h2 class="section-title">Our Core Values</h2>
+        <div class="values-grid">
+          <div class="value-card">
+            <h4>🤝 Integrity</h4>
+            <p>We do what we say. Transparency and honesty are non-negotiable at every level of the organization.</p>
+          </div>
+          <div class="value-card">
+            <h4>🌍 Inclusion</h4>
+            <p>Every voice matters. We champion diversity and create environments where all employees feel they belong.</p>
+          </div>
+          <div class="value-card">
+            <h4>💡 Innovation</h4>
+            <p>We encourage bold thinking, embrace calculated risk, and reward curiosity and creative problem-solving.</p>
+          </div>
+          <div class="value-card">
+            <h4>🌱 Growth</h4>
+            <p>We invest in our people's professional and personal development — because your growth is our growth.</p>
+          </div>
+          <div class="value-card">
+            <h4>⚖️ Balance</h4>
+            <p>Sustainable performance matters. We promote healthy work-life integration and wellbeing for all staff.</p>
+          </div>
+          <div class="value-card">
+            <h4>🏆 Excellence</h4>
+            <p>We hold ourselves to high standards and celebrate achievements — both big milestones and small wins.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <h2 class="section-title">Meet Our People</h2>
+      <div class="staff-grid">
+        <div class="staff-card">
+          <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="Amira Hassan"/>
+          <h4>Amira Hassan</h4>
+          <p>Senior Engineer</p>
+        </div>
+        <div class="staff-card">
+          <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Carlos Mendez"/>
+          <h4>Carlos Mendez</h4>
+          <p>Product Designer</p>
+        </div>
+        <div class="staff-card">
+          <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="Priya Sharma"/>
+          <h4>Priya Sharma</h4>
+          <p>Data Analyst</p>
+        </div>
+        <div class="staff-card">
+          <img src="https://randomuser.me/api/portraits/men/18.jpg" alt="Tom Okafor"/>
+          <h4>Tom Okafor</h4>
+          <p>Marketing Lead</p>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: var(--surface); padding: 4rem 2rem; border-top: 1px solid var(--border);">
+      <div style="max-width: 1200px; margin: 0 auto;">
+        <h2 class="section-title">Diversity & Inclusion Initiatives</h2>
+        <ul class="policy-list">
+          <li><a href="#dei">🌈 Annual DEI Report — published every January</a></li>
+          <li><a href="#mentorship">🤲 Women in Leadership Mentorship Programme</a></li>
+          <li><a href="#disability">♿ Accessibility & Disability Inclusion Framework</a></li>
+          <li><a href="#culture-days">🎊 Cultural Celebration Days — 20+ events per year</a></li>
+          <li><a href="#esg">🌱 ESG Employee Volunteer Programme</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MKSCorp Human Resources Portal. All rights reserved.</p>
+  </footer>
+  <script>function toggleMenu() { document.querySelector('.nav-links').classList.toggle('open'); }</script>
+</body>
+</html>

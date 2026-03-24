@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MKSCorp HR Portal – Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">MKS<span>Corp</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="culture.html">Company Culture</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="benefits.html">Benefits</a></li>
+        <li><a href="training.html">Training</a></li>
+      </ul>
+      <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Welcome to the HR Portal</p>
+        <h1>People First.<br/><em>Always.</em></h1>
+        <p class="hero-sub">Your central hub for everything HR — from career growth and benefits to training and company culture.</p>
+        <a href="careers.html" class="btn-primary">Explore Opportunities</a>
+      </div>
+      <div class="hero-image">
+       <img src="Images/u.jpeg" alt="people working together">
+      </div>
+    </section>
+
+    <section class="highlights">
+      <div class="card">
+        <span class="card-icon">🏢</span>
+        <h3>Company Culture</h3>
+        <p>Discover our values, diversity initiatives, and what makes MKSCorp a great place to work.</p>
+        <a href="culture.html">Learn More →</a>
+      </div>
+      <div class="card">
+        <span class="card-icon">💼</span>
+        <h3>Careers & Recruitment</h3>
+        <p>Browse open positions and start your journey with us. New roles added every week.</p>
+        <a href="careers.html">View Jobs →</a>
+      </div>
+      <div class="card">
+        <span class="card-icon">🎁</span>
+        <h3>Employee Benefits</h3>
+        <p>Health, wellness, retirement, and perks designed to support your whole life.</p>
+        <a href="benefits.html">Explore Benefits →</a>
+      </div>
+      <div class="card">
+        <span class="card-icon">📚</span>
+        <h3>Training & Development</h3>
+        <p>Upskill with curated courses, workshops, and mentorship programs.</p>
+        <a href="training.html">Start Learning →</a>
+      </div>
+    </section>
+
+    <section class="staff-section">
+      <h2>Meet Our Team</h2>
+      <div class="staff-grid">
+        <div class="staff-card">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Mokoena" />
+          <h4>Sarah Mokoena</h4>
+          <p>HR Director</p>
+        </div>
+        <div class="staff-card">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="James Nkosi" />
+          <h4>James Nkosi</h4>
+          <p>Recruitment Manager</p>
+        </div>
+        <div class="staff-card">
+          <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Lerato Dlamini" />
+          <h4>Lerato Dlamini</h4>
+          <p>L&D Specialist</p>
+        </div>
+        <div class="staff-card">
+          <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="David Sithole" />
+          <h4>David Sithole</h4>
+          <p>Benefits Coordinator</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="policies">
+      <h2>HR Policies</h2>
+      <ul class="policy-list">
+        <li><a href="#leave-policy">📄 Leave & Absence Policy</a></li>
+        <li><a href="#code-of-conduct">📄 Code of Conduct</a></li>
+        <li><a href="#remote-work">📄 Remote Work Policy</a></li>
+        <li><a href="#anti-harassment">📄 Anti-Harassment Policy</a></li>
+        <li><a href="#performance">📄 Performance Review Guidelines</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MKSCorp Human Resources Portal. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.querySelector('.nav-links').classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
